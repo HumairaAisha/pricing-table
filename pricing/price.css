@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   font-family: "Be Vietnam Pro", serif;
+
+}
+.main-title{
+   text-align: center;
+   background-color: #F8FAFC;
+   background-image: url(./resources/bg-pattern.png);
+}
+.title{
+   padding-top: 50px;
+   margin-bottom: 10px;
+   font-size: 2rem;
+   font-weight: 600;
+}
+.subtitle{
+   color: #4D5562;
+   padding-bottom: 50px;  
+}
+.table-price{
+    width: 100%;    
+}
+.row{
+   border-bottom: 1px solid;
+}
+.price{
+   font-size: 4rem;
+   font-weight: 600;
+}
+.per-month{
+   text-align: center;
+   color: #4D5562;
+}
+.price-list .button-list th{
+   text-align: center;
+   color: #263FA9;
+}
+.button-list, .price-list{
+   border-bottom: none;
+}
+.row{
+   border-bottom: 1px solid #4D5562;
+}
+.button-list button{
+   text-align: center;
+   color: #263FA9;
+   background-color: #ffffff;
+   border: none;
+   font-size: 1rem;
+   font-weight: 600;
+}
+
+.row td{
+   border-bottom: 1px solid #E5E7EB;
+  padding: 16px;
+}
+/*To style a specific row*/
+
+
+.row td:first-child{
+  
+   font-size: 1rem;
+   color: #121826;
+   font-weight: 600;
+   background-color: #F8FAFC;
+
+}
+.action-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+}
+.start{
+   border: none;
+   color: #263FA9;
+   font-size: 1rem;
+   background-color: #ffffff;
+   font-weight: 600;
+   padding: 20px 0 30px 0;
+}
+.action-icon{
+   object-fit: contain;
+   width: 20px;
+   height: 20px;
+}
+
+
